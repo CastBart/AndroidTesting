@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="NsightTegraProject">
+    <NsightTegraProjectRevisionNumber>11</NsightTegraProjectRevisionNumber>
+    <NsightTegraUpgradeOnceWithoutPrompt>true</NsightTegraUpgradeOnceWithoutPrompt>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Tegra-Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Tegra-Android">
+      <Configuration>Release</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Tegra-Android">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Tegra-Android">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{B21C9C8C-94CC-32DC-A024-F2A8B5493C1B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Tegra-Android</Platform>
+    <ProjectName>sfml-system</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">sfml-system.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">libsfml-system-d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">sfml-system.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">libsfml-system</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">sfml-system.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">libsfml-system</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">sfml-system.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">libsfml-system</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">.so</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -marm -fno-omit-frame-pointer -fno-strict-aliasing -O0 -g -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>DEBUG;_DEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;CMAKE_INTDIR="Debug";SFML_SYSTEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>android;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-system-d.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;CMAKE_INTDIR="Release";SFML_SYSTEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>android;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-system.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -Os -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;CMAKE_INTDIR="MinSizeRel";SFML_SYSTEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>android;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-system.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -O2 -g -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;CMAKE_INTDIR="RelWithDebInfo";SFML_SYSTEM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>android;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-system.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/System/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/System/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/System/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/System/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/System/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/System/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/System/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/System/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Clock.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Err.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Export.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\InputStream.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Lock.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Mutex.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\NativeActivity.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\NonCopyable.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Sleep.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\String.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\String.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Thread.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Thread.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\ThreadLocal.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\ThreadLocalPtr.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\ThreadLocalPtr.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Time.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Utf.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Vector2.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Vector3.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\FileInputStream.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\MemoryInputStream.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ClockImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\MutexImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\SleepImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ThreadImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ThreadLocalImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Android\Activity.hpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Clock.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Err.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Lock.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Mutex.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Sleep.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\String.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Thread.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\ThreadLocal.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Time.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\FileInputStream.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\MemoryInputStream.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ClockImpl.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\MutexImpl.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\SleepImpl.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ThreadImpl.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ThreadLocalImpl.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Android\Activity.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Android\NativeActivity.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Android\ResourceStream.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/ZERO_CHECK.vcxproj">
+      <Project>1599E65D-324A-392E-BBFF-BB9EDCD59C63</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

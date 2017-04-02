@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="NsightTegraProject">
+    <NsightTegraProjectRevisionNumber>11</NsightTegraProjectRevisionNumber>
+    <NsightTegraUpgradeOnceWithoutPrompt>true</NsightTegraUpgradeOnceWithoutPrompt>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Tegra-Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Tegra-Android">
+      <Configuration>Release</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Tegra-Android">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Tegra-Android">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{613F62A1-82D5-3CED-9F89-7150BEE6B78C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Tegra-Android</Platform>
+    <ProjectName>sfml-network</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">sfml-network.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">libsfml-network-d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">sfml-network.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">libsfml-network</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">sfml-network.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">libsfml-network</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">sfml-network.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">libsfml-network</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">.so</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -marm -fno-omit-frame-pointer -fno-strict-aliasing -O0 -g -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>DEBUG;_DEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;CMAKE_INTDIR="Debug";SFML_NETWORK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\Debug\libsfml-system-d.so;android;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-network-d.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;CMAKE_INTDIR="Release";SFML_NETWORK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\Release\libsfml-system.so;android;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-network.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -Os -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;CMAKE_INTDIR="MinSizeRel";SFML_NETWORK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\libsfml-system.so;android;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-network.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -O2 -g -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;CMAKE_INTDIR="RelWithDebInfo";SFML_NETWORK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\libsfml-system.so;android;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-network.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Network/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Network/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Network/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Network/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Network/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Network/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Network/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Network/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\Export.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\Ftp.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\Http.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\IpAddress.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\Packet.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\Socket.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\SocketImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\SocketHandle.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\SocketSelector.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\TcpListener.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\TcpSocket.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Network\UdpSocket.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\Unix\SocketImpl.hpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\Ftp.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\Http.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\IpAddress.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\Packet.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\Socket.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\SocketSelector.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\TcpListener.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\TcpSocket.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\UdpSocket.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Network\Unix\SocketImpl.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/ZERO_CHECK.vcxproj">
+      <Project>1599E65D-324A-392E-BBFF-BB9EDCD59C63</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/System/sfml-system.vcxproj">
+      <Project>B21C9C8C-94CC-32DC-A024-F2A8B5493C1B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

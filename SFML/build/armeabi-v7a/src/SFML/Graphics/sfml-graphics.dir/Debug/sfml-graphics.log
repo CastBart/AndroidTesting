@@ -1,0 +1,53 @@
+﻿  Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/CMakeLists.txt
+  CMake does not need to re-run because D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp is up-to-date.
+  BlendMode.cpp
+  ImageLoader.cpp
+  RectangleShape.cpp
+  TextureSaver.cpp
+  Color.cpp
+  Transform.cpp
+  ConvexShape.cpp
+  Font.cpp
+  Transformable.cpp
+  Sprite.cpp
+  C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport\math.h(32): includes this header: 0,
+                   from D:/GitHub/AndroidTesting/SFML/extlibs/headers/stb_image/stb_image.h:557,
+  D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\ImageLoader.cpp(32): 'from D' 
+  C:\android-ndk-r11c\platforms\android-9\arch-arm\usr\include\math.h(24): 0: warning: "__pure2" redefined
+   #define __pure2
+   ^
+  C:\android-ndk-r11c\platforms\android-9\arch-arm\usr\include\limits.h(38): includes this header: 0,
+                   from C:/android-ndk-r14b/sources/cxx-stl/stlport/stlport/limits.h:30,
+                   from C:/android-ndk-r11c/platforms/android-9/arch-arm/usr/include/../include/wchar.h:31,
+                   from C:/android-ndk-r14b/sources/cxx-stl/stlport/stlport/wchar.h:47,
+                   from C:/android-ndk-r11c/sources/cxx-stl/gnu-libstdc++/4.9/include/cwchar:44,
+                   from C:/android-ndk-r11c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/postypes.h:40,
+                   from C:/android-ndk-r11c/sources/cxx-stl/gnu-libstdc++/4.9/include/bits/char_traits.h:40,
+                   from C:/android-ndk-r11c/sources/cxx-stl/gnu-libstdc++/4.9/include/string:40,
+                   from D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/ImageLoader.hpp:33,
+  D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\ImageLoader.cpp(28): 'from D' 
+  C:\android-ndk-r11c\platforms\android-9\arch-arm\usr\include\sys\cdefs.h(198): 0: note: this is the location of the previous definition
+   #define __pure2 __attribute__((__const__)) /* Android-added: used by FreeBSD libm */
+   ^
+  RenderStates.cpp
+  View.cpp
+  Text.cpp
+  RenderTexture.cpp
+  Glsl.cpp
+  Vertex.cpp
+  Shape.cpp
+  GLCheck.cpp
+  RenderTarget.cpp
+  VertexArray.cpp
+  GLExtensions.cpp
+  CircleShape.cpp
+  RenderWindow.cpp
+  RenderTextureImpl.cpp
+  Image.cpp
+  RenderTextureImplFBO.cpp
+  RenderTextureImplDefault.cpp
+  Shader.cpp
+  Texture.cpp
+  sfml-graphics.vcxproj -> D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-graphics-d.so
+  Stripping D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-graphics-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-graphics-d.so
+  Adding debuglink D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-graphics-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-graphics-d.so

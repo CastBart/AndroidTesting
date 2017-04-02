@@ -1,0 +1,25 @@
+﻿  Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Window/CMakeLists.txt
+  CMake does not need to re-run because D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Window\CMakeFiles\generate.stamp is up-to-date.
+  Context.cpp
+  Keyboard.cpp
+  VideoMode.cpp
+  WindowImplAndroid.cpp
+  Mouse.cpp
+  GlContext.cpp
+  Window.cpp
+  VideoModeImpl.cpp
+  Touch.cpp
+  GlResource.cpp
+  WindowImpl.cpp
+  Sensor.cpp
+  Joystick.cpp
+  SensorManager.cpp
+  InputImpl.cpp
+  EGLCheck.cpp
+  JoystickManager.cpp
+  JoystickImpl.cpp
+  EglContext.cpp
+  SensorImpl.cpp
+  sfml-window.vcxproj -> D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-window-d.so
+  Stripping D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-window-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-window-d.so
+  Adding debuglink D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-window-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-window-d.so

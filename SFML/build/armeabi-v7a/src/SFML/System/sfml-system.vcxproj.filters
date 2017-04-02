@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Clock.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Err.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Lock.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Mutex.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Sleep.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\String.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Thread.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\ThreadLocal.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Time.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\FileInputStream.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\MemoryInputStream.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ClockImpl.cpp">
+      <Filter>unix</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\MutexImpl.cpp">
+      <Filter>unix</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\SleepImpl.cpp">
+      <Filter>unix</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ThreadImpl.cpp">
+      <Filter>unix</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ThreadLocalImpl.cpp">
+      <Filter>unix</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Android\Activity.cpp">
+      <Filter>unix</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Android\NativeActivity.cpp">
+      <Filter>unix</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Android\ResourceStream.cpp">
+      <Filter>unix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Clock.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Err.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Export.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\InputStream.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Lock.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Mutex.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\NativeActivity.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\NonCopyable.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Sleep.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\String.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\String.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Thread.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Thread.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\ThreadLocal.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\ThreadLocalPtr.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\ThreadLocalPtr.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Time.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Utf.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Vector2.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\Vector3.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\FileInputStream.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\System\MemoryInputStream.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ClockImpl.hpp">
+      <Filter>unix</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\MutexImpl.hpp">
+      <Filter>unix</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\SleepImpl.hpp">
+      <Filter>unix</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ThreadImpl.hpp">
+      <Filter>unix</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Unix\ThreadLocalImpl.hpp">
+      <Filter>unix</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\Android\Activity.hpp">
+      <Filter>unix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="unix">
+      <UniqueIdentifier>{9CC3A0B3-7F79-3BBA-9657-365D986F32E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

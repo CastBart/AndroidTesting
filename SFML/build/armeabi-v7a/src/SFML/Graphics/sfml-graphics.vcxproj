@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="NsightTegraProject">
+    <NsightTegraProjectRevisionNumber>11</NsightTegraProjectRevisionNumber>
+    <NsightTegraUpgradeOnceWithoutPrompt>true</NsightTegraUpgradeOnceWithoutPrompt>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Tegra-Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Tegra-Android">
+      <Configuration>Release</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Tegra-Android">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Tegra-Android">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E9C90645-3232-3000-A6E5-2004932C776B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Tegra-Android</Platform>
+    <ProjectName>sfml-graphics</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">sfml-graphics.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">libsfml-graphics-d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">sfml-graphics.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">libsfml-graphics</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">sfml-graphics.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">libsfml-graphics</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">sfml-graphics.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">libsfml-graphics</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">.so</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -marm -fno-omit-frame-pointer -fno-strict-aliasing -O0 -g -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;D:\GitHub\AndroidTesting\SFML\extlibs\headers\stb_image;D:\GitHub\AndroidTesting\SFML\extlibs\headers\freetype2;D:\GitHub\AndroidTesting\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>DEBUG;_DEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;STBI_FAILURE_USERMSG;CMAKE_INTDIR="Debug";SFML_GRAPHICS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\Debug\libsfml-window-d.so;..\..\..\lib\Debug\libsfml-system-d.so;z;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libfreetype.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libjpeg.a;log;android;EGL;GLESv1_CM</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-graphics-d.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;D:\GitHub\AndroidTesting\SFML\extlibs\headers\stb_image;D:\GitHub\AndroidTesting\SFML\extlibs\headers\freetype2;D:\GitHub\AndroidTesting\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;STBI_FAILURE_USERMSG;CMAKE_INTDIR="Release";SFML_GRAPHICS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\Release\libsfml-window.so;..\..\..\lib\Release\libsfml-system.so;z;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libfreetype.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libjpeg.a;log;android;EGL;GLESv1_CM</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-graphics.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -Os -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;D:\GitHub\AndroidTesting\SFML\extlibs\headers\stb_image;D:\GitHub\AndroidTesting\SFML\extlibs\headers\freetype2;D:\GitHub\AndroidTesting\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;STBI_FAILURE_USERMSG;CMAKE_INTDIR="MinSizeRel";SFML_GRAPHICS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\libsfml-window.so;..\..\..\lib\MinSizeRel\libsfml-system.so;z;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libfreetype.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libjpeg.a;log;android;EGL;GLESv1_CM</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-graphics.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -O2 -g -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;D:\GitHub\AndroidTesting\SFML\extlibs\headers\stb_image;D:\GitHub\AndroidTesting\SFML\extlibs\headers\freetype2;D:\GitHub\AndroidTesting\SFML\extlibs\headers\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;STBI_FAILURE_USERMSG;CMAKE_INTDIR="RelWithDebInfo";SFML_GRAPHICS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\libsfml-window.so;..\..\..\lib\RelWithDebInfo\libsfml-system.so;z;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libfreetype.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libjpeg.a;log;android;EGL;GLESv1_CM</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-graphics.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Cmake\share\cmake-3.7\Modules\FindJPEG.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFreetype.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Cmake\share\cmake-3.7\Modules\FindJPEG.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFreetype.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Cmake\share\cmake-3.7\Modules\FindJPEG.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFreetype.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Cmake\share\cmake-3.7\Modules\FindJPEG.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFreetype.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\BlendMode.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Color.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Export.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Font.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Glsl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Glsl.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Glyph.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\GLCheck.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\GLExtensions.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Image.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\ImageLoader.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\PrimitiveType.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Rect.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Rect.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\RenderStates.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\RenderTexture.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\RenderTarget.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\RenderWindow.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Shader.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Texture.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\TextureSaver.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Transform.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Transformable.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\View.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Vertex.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Drawable.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Shape.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\CircleShape.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\RectangleShape.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\ConvexShape.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Sprite.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\Text.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Graphics\VertexArray.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RenderTextureImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RenderTextureImplFBO.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RenderTextureImplDefault.hpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\BlendMode.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Color.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Font.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Glsl.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\GLCheck.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\GLExtensions.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Image.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\ImageLoader.cpp" >
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'"> -fno-strict-aliasing %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'"> -fno-strict-aliasing %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'"> -fno-strict-aliasing %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'"> -fno-strict-aliasing %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RenderStates.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RenderTexture.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RenderTarget.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RenderWindow.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Shader.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Texture.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\TextureSaver.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Transform.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Transformable.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\View.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Vertex.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Shape.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CircleShape.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RectangleShape.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\ConvexShape.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Sprite.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\Text.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\VertexArray.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RenderTextureImpl.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RenderTextureImplFBO.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\RenderTextureImplDefault.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/ZERO_CHECK.vcxproj">
+      <Project>1599E65D-324A-392E-BBFF-BB9EDCD59C63</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/System/sfml-system.vcxproj">
+      <Project>B21C9C8C-94CC-32DC-A024-F2A8B5493C1B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Window/sfml-window.vcxproj">
+      <Project>A35A1166-EE21-3DEF-8B78-ADB79D152118</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

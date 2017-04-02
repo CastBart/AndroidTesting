@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/GitHub/AndroidTesting/SFML/src/SFML/Graphics/CMakeLists.txt
+D:/Cmake/share/cmake-3.7/Modules/FindJPEG.cmake
+D:/Cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/GitHub/AndroidTesting/SFML/cmake/Modules/FindFreetype.cmake

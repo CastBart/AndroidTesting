@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="NsightTegraProject">
+    <NsightTegraProjectRevisionNumber>11</NsightTegraProjectRevisionNumber>
+    <NsightTegraUpgradeOnceWithoutPrompt>true</NsightTegraUpgradeOnceWithoutPrompt>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Tegra-Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Tegra-Android">
+      <Configuration>Release</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Tegra-Android">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Tegra-Android">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6ACF8825-E886-3228-B4B8-6125C2E4B33F}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Tegra-Android</Platform>
+    <ProjectName>sfml-audio</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+    <AndroidTargetAPI>android-9</AndroidTargetAPI>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">sfml-audio.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">libsfml-audio-d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">sfml-audio.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">libsfml-audio</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">sfml-audio.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">libsfml-audio</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">.so</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">sfml-audio.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">libsfml-audio</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">.so</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -marm -fno-omit-frame-pointer -fno-strict-aliasing -O0 -g -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;D:\GitHub\AndroidTesting\SFML\extlibs\headers\AL;D:\GitHub\AndroidTesting\SFML\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>DEBUG;_DEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="Debug";SFML_AUDIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\Debug\libsfml-system-d.so;openal;android;OpenSLES;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbisenc.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbisfile.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbis.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libogg.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libFLAC.a;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);D:/GitHub/AndroidTesting/SFML/extlibs/libs-android/armeabi-v7a;D:/GitHub/AndroidTesting/SFML/extlibs/libs-android/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-audio-d.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;D:\GitHub\AndroidTesting\SFML\extlibs\headers\AL;D:\GitHub\AndroidTesting\SFML\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="Release";SFML_AUDIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\Release\libsfml-system.so;openal;android;OpenSLES;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbisenc.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbisfile.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbis.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libogg.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libFLAC.a;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);D:/GitHub/AndroidTesting/SFML/extlibs/libs-android/armeabi-v7a;D:/GitHub/AndroidTesting/SFML/extlibs/libs-android/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-audio.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -Os -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;D:\GitHub\AndroidTesting\SFML\extlibs\headers\AL;D:\GitHub\AndroidTesting\SFML\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="MinSizeRel";SFML_AUDIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\libsfml-system.so;openal;android;OpenSLES;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbisenc.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbisfile.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbis.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libogg.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libFLAC.a;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);D:/GitHub/AndroidTesting/SFML/extlibs/libs-android/armeabi-v7a;D:/GitHub/AndroidTesting/SFML/extlibs/libs-android/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-audio.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">
+    <ClCompile>
+      <AdditionalOptions> -fno-exceptions -fno-rtti -fpic -Wno-psabi --sysroot=C:/android-ndk-r14b/platforms/android-9/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fdata-sections -ffunction-sections -Wa,--noexecstack -O2 -g -fvisibility=hidden %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\android-ndk-r14b\platforms\android-9\arch-arm\usr\include;C:\android-ndk-r14b\sources\cxx-stl\stlport\stlport;D:\GitHub\AndroidTesting\SFML\include;D:\GitHub\AndroidTesting\SFML\src;D:\GitHub\AndroidTesting\SFML\extlibs\headers\AL;D:\GitHub\AndroidTesting\SFML\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>NDEBUG;ANDROID;STL_LIBRARY=stlport_shared;SFML_OPENGL_ES;GL_GLEXT_PROTOTYPES;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="RelWithDebInfo";SFML_AUDIO_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\libsfml-system.so;openal;android;OpenSLES;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbisenc.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbisfile.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libvorbis.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libogg.a;..\..\..\..\..\extlibs\libs-android\armeabi-v7a\libFLAC.a;log</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/libs/armeabi-v7a;/libs/armeabi-v7a/$(Configuration);D:/GitHub/AndroidTesting/SFML/extlibs/libs-android/armeabi-v7a;D:/GitHub/AndroidTesting/SFML/extlibs/libs-android/armeabi-v7a/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SoName>libsfml-audio.so</SoName>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Audio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Audio/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;D:\Cmake\share\cmake-3.7\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindVorbis.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFLAC.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Audio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Audio/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;D:\Cmake\share\cmake-3.7\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindVorbis.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFLAC.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Audio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Audio/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;D:\Cmake\share\cmake-3.7\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindVorbis.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFLAC.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Audio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-file D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/src/SFML/Audio/CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;D:\Cmake\share\cmake-3.7\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindVorbis.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFLAC.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\ALCheck.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\AlResource.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\AudioDevice.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\Export.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\Listener.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\Music.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\Sound.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\SoundSource.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\SoundStream.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\SoundFileFactory.inl" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileReaderFlac.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileReaderOgg.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileReaderWav.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileWriterFlac.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileWriterOgg.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileWriterWav.hpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\ALCheck.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\AlResource.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\AudioDevice.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\Listener.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\Music.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\Sound.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundBuffer.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundBufferRecorder.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\InputSoundFile.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\OutputSoundFile.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundRecorder.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundSource.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundStream.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileFactory.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileReaderFlac.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileReaderOgg.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileReaderWav.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileWriterFlac.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileWriterOgg.cpp"  />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\SoundFileWriterWav.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/ZERO_CHECK.vcxproj">
+      <Project>1599E65D-324A-392E-BBFF-BB9EDCD59C63</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/System/sfml-system.vcxproj">
+      <Project>B21C9C8C-94CC-32DC-A024-F2A8B5493C1B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

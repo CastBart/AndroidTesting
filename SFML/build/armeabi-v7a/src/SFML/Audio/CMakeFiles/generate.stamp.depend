@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+D:/GitHub/AndroidTesting/SFML/src/SFML/Audio/CMakeLists.txt
+D:/Cmake/share/cmake-3.7/Modules/FindOpenAL.cmake
+D:/Cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/GitHub/AndroidTesting/SFML/cmake/Modules/FindVorbis.cmake
+D:/Cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake
+D:/GitHub/AndroidTesting/SFML/cmake/Modules/FindFLAC.cmake
+D:/Cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+D:/Cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+D:/Cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake

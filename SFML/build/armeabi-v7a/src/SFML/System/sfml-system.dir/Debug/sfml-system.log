@@ -1,0 +1,24 @@
+﻿  Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/System/CMakeLists.txt
+  CMake does not need to re-run because D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp is up-to-date.
+  Time.cpp
+  Clock.cpp
+  MutexImpl.cpp
+  Sleep.cpp
+  Err.cpp
+  SleepImpl.cpp
+  String.cpp
+  FileInputStream.cpp
+  Lock.cpp
+  Mutex.cpp
+  ThreadImpl.cpp
+  MemoryInputStream.cpp
+  ThreadLocal.cpp
+  Thread.cpp
+  ThreadLocalImpl.cpp
+  ClockImpl.cpp
+  Activity.cpp
+  NativeActivity.cpp
+  ResourceStream.cpp
+  sfml-system.vcxproj -> D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-system-d.so
+  Stripping D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-system-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-system-d.so
+  Adding debuglink D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-system-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-system-d.so

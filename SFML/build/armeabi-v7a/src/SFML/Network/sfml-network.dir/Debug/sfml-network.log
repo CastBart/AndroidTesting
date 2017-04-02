@@ -1,0 +1,15 @@
+﻿  Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Network/CMakeLists.txt
+  CMake does not need to re-run because D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp is up-to-date.
+  Ftp.cpp
+  IpAddress.cpp
+  Socket.cpp
+  TcpListener.cpp
+  SocketSelector.cpp
+  TcpSocket.cpp
+  Packet.cpp
+  Http.cpp
+  UdpSocket.cpp
+  SocketImpl.cpp
+  sfml-network.vcxproj -> D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-network-d.so
+  Stripping D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-network-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-network-d.so
+  Adding debuglink D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-network-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-network-d.so

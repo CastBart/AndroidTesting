@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Main/CMakeLists.txt
+  CMake does not need to re-run because D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Main\CMakeFiles\generate.stamp is up-to-date.
+  SFMLActivity.cpp
+  sfml-activity.vcxproj -> D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-activity-d.so
+  Stripping D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-activity-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-activity-d.so
+  Adding debuglink D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-activity-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-activity-d.so

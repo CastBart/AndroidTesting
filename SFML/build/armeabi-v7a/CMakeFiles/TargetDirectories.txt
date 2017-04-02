@@ -1,0 +1,17 @@
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/CMakeFiles/INSTALL.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/CMakeFiles/ALL_BUILD.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/CMakeFiles/ZERO_CHECK.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/CMakeFiles/INSTALL.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/System/CMakeFiles/sfml-system.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/System/CMakeFiles/INSTALL.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Main/CMakeFiles/INSTALL.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Main/CMakeFiles/sfml-main.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Main/CMakeFiles/sfml-activity.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Window/CMakeFiles/sfml-window.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Window/CMakeFiles/INSTALL.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Network/CMakeFiles/sfml-network.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Network/CMakeFiles/INSTALL.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Graphics/CMakeFiles/INSTALL.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Audio/CMakeFiles/sfml-audio.dir
+D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/src/SFML/Audio/CMakeFiles/INSTALL.dir

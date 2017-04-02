@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="NsightTegraProject">
+    <NsightTegraProjectRevisionNumber>11</NsightTegraProjectRevisionNumber>
+    <NsightTegraUpgradeOnceWithoutPrompt>true</NsightTegraUpgradeOnceWithoutPrompt>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Tegra-Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Tegra-Android">
+      <Configuration>Release</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Tegra-Android">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Tegra-Android">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1599E65D-324A-392E-BBFF-BB9EDCD59C63}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Tegra-Android</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <NdkToolchainVersion>Default</NdkToolchainVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\58ba38a21176305b6b65827fdafa073c\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/CMakeFiles/58ba38a21176305b6b65827fdafa073c/generate.stamp.rule;D:\Cmake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeForceCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeTestCCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU.cmake;D:\Cmake\share\cmake-3.7\Modules\FindJPEG.cmake;D:\Cmake\share\cmake-3.7\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Initialize.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android\Determine-Compiler.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Linux.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\UnixPaths.cmake;D:\GitHub\AndroidTesting\SFML\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeCCompiler.cmake;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeSystem.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Config.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Macros.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFLAC.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFreetype.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindVorbis.cmake;D:\GitHub\AndroidTesting\SFML\cmake\toolchains\android.toolchain.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Main\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Main\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Window\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/CMakeFiles/58ba38a21176305b6b65827fdafa073c/generate.stamp.rule;D:\Cmake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeForceCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeTestCCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU.cmake;D:\Cmake\share\cmake-3.7\Modules\FindJPEG.cmake;D:\Cmake\share\cmake-3.7\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Initialize.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android\Determine-Compiler.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Linux.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\UnixPaths.cmake;D:\GitHub\AndroidTesting\SFML\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeCCompiler.cmake;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeSystem.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Config.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Macros.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFLAC.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFreetype.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindVorbis.cmake;D:\GitHub\AndroidTesting\SFML\cmake\toolchains\android.toolchain.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Main\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Main\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Window\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/CMakeFiles/58ba38a21176305b6b65827fdafa073c/generate.stamp.rule;D:\Cmake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeForceCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeTestCCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU.cmake;D:\Cmake\share\cmake-3.7\Modules\FindJPEG.cmake;D:\Cmake\share\cmake-3.7\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Initialize.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android\Determine-Compiler.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Linux.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\UnixPaths.cmake;D:\GitHub\AndroidTesting\SFML\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeCCompiler.cmake;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeSystem.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Config.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Macros.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFLAC.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFreetype.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindVorbis.cmake;D:\GitHub\AndroidTesting\SFML\cmake\toolchains\android.toolchain.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Main\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Main\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Window\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Tegra-Android'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/GitHub/AndroidTesting/SFML -BD:/GitHub/AndroidTesting/SFML/build/armeabi-v7a --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:/GitHub/AndroidTesting/SFML/build/armeabi-v7a/CMakeFiles/58ba38a21176305b6b65827fdafa073c/generate.stamp.rule;D:\Cmake\share\cmake-3.7\Modules\CMakeCCompiler.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeForceCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;D:\Cmake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeTestCCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Compiler\GNU.cmake;D:\Cmake\share\cmake-3.7\Modules\FindJPEG.cmake;D:\Cmake\share\cmake-3.7\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.7\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Determine.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU-C.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU-CXX.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-GNU.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android-Initialize.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Android\Determine-Compiler.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\Linux.cmake;D:\Cmake\share\cmake-3.7\Modules\Platform\UnixPaths.cmake;D:\GitHub\AndroidTesting\SFML\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeCCompiler.cmake;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\3.7.2\CMakeSystem.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Config.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Macros.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFLAC.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindFreetype.cmake;D:\GitHub\AndroidTesting\SFML\cmake\Modules\FindVorbis.cmake;D:\GitHub\AndroidTesting\SFML\cmake\toolchains\android.toolchain.cmake;D:\GitHub\AndroidTesting\SFML\src\SFML\Audio\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Graphics\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Main\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Network\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\System\CMakeLists.txt;D:\GitHub\AndroidTesting\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\System\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Main\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Window\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Network\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Graphics\CMakeFiles\generate.stamp;D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Tegra-Android'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Context.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\GlContext.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\GlResource.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Joystick.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\JoystickManager.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Keyboard.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Mouse.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Touch.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Sensor.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\SensorManager.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\VideoMode.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Window.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\WindowImpl.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\EGLCheck.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\EglContext.cpp" />
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Android\WindowImplAndroid.cpp">
+      <Filter>android</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Android\VideoModeImpl.cpp">
+      <Filter>android</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Android\InputImpl.cpp">
+      <Filter>android</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Android\JoystickImpl.cpp">
+      <Filter>android</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Android\SensorImpl.cpp">
+      <Filter>android</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\Context.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\Export.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\GlContext.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\GlResource.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\ContextSettings.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\Event.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\InputImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\Joystick.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\JoystickImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\JoystickManager.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\Keyboard.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\Mouse.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\Touch.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\Sensor.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\SensorImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\SensorManager.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\VideoMode.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\VideoModeImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\Window.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\WindowHandle.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\WindowImpl.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\include\SFML\Window\WindowStyle.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\EGLCheck.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\EglContext.hpp" />
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Android\WindowImplAndroid.hpp">
+      <Filter>android</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Android\InputImpl.hpp">
+      <Filter>android</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Android\JoystickImpl.hpp">
+      <Filter>android</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\Android\SensorImpl.hpp">
+      <Filter>android</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\AndroidTesting\SFML\src\SFML\Window\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="android">
+      <UniqueIdentifier>{15CDA80D-1C4B-3827-8D91-14620BB40FC6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

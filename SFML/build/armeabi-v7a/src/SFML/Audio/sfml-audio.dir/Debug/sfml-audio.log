@@ -1,0 +1,25 @@
+﻿  Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Audio/CMakeLists.txt
+  CMake does not need to re-run because D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Audio\CMakeFiles\generate.stamp is up-to-date.
+  ALCheck.cpp
+  Sound.cpp
+  SoundRecorder.cpp
+  SoundFileReaderOgg.cpp
+  SoundBuffer.cpp
+  AlResource.cpp
+  SoundFileReaderWav.cpp
+  SoundSource.cpp
+  SoundStream.cpp
+  SoundBufferRecorder.cpp
+  AudioDevice.cpp
+  SoundFileWriterFlac.cpp
+  SoundFileFactory.cpp
+  InputSoundFile.cpp
+  Listener.cpp
+  SoundFileWriterOgg.cpp
+  Music.cpp
+  OutputSoundFile.cpp
+  SoundFileReaderFlac.cpp
+  SoundFileWriterWav.cpp
+  sfml-audio.vcxproj -> D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-audio-d.so
+  Stripping D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-audio-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-audio-d.so
+  Adding debuglink D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-audio-d.so to D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\stripped_libsfml-audio-d.so

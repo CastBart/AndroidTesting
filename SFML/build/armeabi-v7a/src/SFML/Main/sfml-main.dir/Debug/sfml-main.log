@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/GitHub/AndroidTesting/SFML/src/SFML/Main/CMakeLists.txt
+  CMake does not need to re-run because D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\src\SFML\Main\CMakeFiles\generate.stamp is up-to-date.
+  MainAndroid.cpp
+  sfml-main.vcxproj -> D:\GitHub\AndroidTesting\SFML\build\armeabi-v7a\lib\Debug\libsfml-main-d.a
